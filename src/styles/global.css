@@ -1,0 +1,33 @@
+:root {
+    --light-cyan: hsl(193, 38%, 86%);
+    --neon-green: #52ffa8;
+    --grayish-blue: hsl(217, 19%, 38%);
+    --dark-grayish-blue: hsl(217, 19%, 24%);
+    --dark-blue: #1f2632;
+    --font-family: 'Manrope', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    background-color: var(--dark-blue);
+    color: var(--light-cyan);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  @media screen and (max-width: 375px) {
+    .card {
+      max-width: 300px;
+    }
+  
+    .advice-text {
+      font-size: 22px;
+    }
+  }
+  
+  
