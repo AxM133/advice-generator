@@ -39,4 +39,4 @@ The **Advice Generator App** is a simple yet elegant application that generates 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/advice-generator.git
+   git clone https://github.com/AxM133/advice-generator
