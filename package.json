@@ -10,9 +10,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "echo 'Starting build process...' && ls -la && react-scripts build && echo 'Build process complete!'",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prebuild": "echo 'Preparing build environment...' && chmod -R 755 .",
+    "postbuild": "echo 'Post-build cleanup complete.'"
   },
   "eslintConfig": {
     "extends": [
