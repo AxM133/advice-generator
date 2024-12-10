@@ -40,3 +40,7 @@ The **Advice Generator App** is a simple yet elegant application that generates 
 1. Clone the repository:
    ```bash
    git clone https://github.com/AxM133/advice-generator
+
+## 👀 View the site
+
+https://advice-generator-xi-topaz.vercel.app/
